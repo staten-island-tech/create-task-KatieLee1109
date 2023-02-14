@@ -1,5 +1,15 @@
 :root{
   font-family: 'Merriweather', serif;
-  -h1: 6 rem;
-
+  --h1: 6rem;
+  --h2: 5rem;
+  --h3: 4rem;
+  --h4: 3rem;
+}
+.title{
+  font-size: var(--h1);
+  text-align: center;
+}
+.blurb{
+  font-size: var(--h2);
+  text-align: center;
 }
