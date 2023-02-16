@@ -1,3 +1,7 @@
+*{
+background-color: whitesmoke;
+}
+
 :root{
   font-family: 'Merriweather', serif;
   --h1: 6rem;
@@ -12,4 +16,7 @@
 .blurb{
   font-size: var(--h2);
   text-align: center;
+}
+.submit{
+  border-radius: bold 5px;
 }
