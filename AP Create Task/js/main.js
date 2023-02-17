@@ -8,13 +8,13 @@ form.addEventListener("click", (e) => {
     display(inputval);
 });
 async function callAPI(value) {
-    let data = await fetch("https://openlibrary.org/authors/OL1394244A/works.json?limit=100");
+    let title = await fetch("https://openlibrary.org/authors/OL1394244A/works.json?limit=100");
     let returned = await data.json();
     return returned;
 };
 async function display(value) {
-    let data = await callAPI(value);
-    console.log(data);
+    let title = await callAPI(value);
+    console.log(title);
     data.data.forEach(element => {
         p.insertAdjacentHTML(
             'afterend',
