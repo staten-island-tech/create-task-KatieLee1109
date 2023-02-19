@@ -13,10 +13,3 @@ background-color: whitesmoke;
   font-size: var(--h1);
   text-align: center;
 }
-.blurb{
-  font-size: var(--h2);
-  text-align: center;
-}
-.submit{
-  border-radius: bold 5px;
-}
