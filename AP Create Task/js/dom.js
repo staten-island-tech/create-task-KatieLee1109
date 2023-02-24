@@ -1,5 +1,5 @@
 const DOMSelectors ={
-    display: document.querySelectorAll("#display"),
-    main: document.querySelectorAll("main"),
+    input: document.getElementById("search"),
+    form: document.getElementById("searchform"),
 };
 export {DOMSelectors};
