@@ -1,10 +1,11 @@
+export { books }
 const books = [
     {
         title: 'The Kingdom of Fantasy',
         year: 2003,
         description: "Join Geronimo for his biggest, most fabumouse adventure yet! Dragons, mermaids, and much, much more await readers in this very special edition!I knew from the start that it was no ordinary day, but I certainly did not expect to find a golden staircase in my attic. Up at the top, there was a door. And beyond the door was a world I never could have imagined -- the Kingdom of Fantasy! Along with my guide, a frog named Scribblehopper, I set off on an incredible adventure to save the Queen of the Fairies. But along the way, I had to face giant scorpions, witches, sea serpents, pixies, and dozens of other creatures that I had only ever heard stories about. Holey cheese, what a journey! Could I save the Queen and my own tail?",
         img: "https://books.google.com/books/content?id=AvBvB2Ux7UUC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U15p_tj2rCNfXuNwBz7iHfwRWO2Nw&w=1280",
-        buy: "https://www.amazon.com/Kingdom-Fantasy-Geronimo-Stilton/dp/0545980259"    
+        buy: "https://www.amazon.com/Kingdom-Fantasy-Geronimo-Stilton/dp/0545980259"
     },
     {
         title: 'The Journey Through Time',
@@ -503,152 +504,151 @@ const books = [
         img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,10273/35266-3.jpg',
         buy: "https://www.amazon.com/Geronimo-Stilton-60-Treasure-Easter/dp/0545746140"
     },
-        {
-            title: 'Mouse House Hunter',
-            year: 2012,
-            description: "I love my comfy, cozy house, so when Grandfather William announced that I had to sell it to help support The Rodent's Gazette, I was very upset! But I'll do anything to help my newspaper. That's how I ended up on a wild, desperate house hunt, all over New Mouse City. Could I find a new home in time?",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,10274/35267-3.jpg',
-            buy: "https://www.amazon.com/Mouse-House-Hunter-Geronimo-Stilton-ebook/dp/B00TYTPLP2"
-        },
-        {
-            title: 'Mouse Overboard!',
-            year: 2014,
-            description: "My family and I, Geronimo Stilton, were invited to Lisbon, Portugal, to retrace the journey of the great explorer Vasco da Gama. He was the first European to reach India by sea--and was apparently an ancestor of the Stiltons! But once we got on the boat, I learned that someone was trying to sabotage the voyage. Could I figure out who?",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,10285/35283-3.jpg',
-            buy: "https://www.amazon.com/Mouse-Overboard-Geronimo-Stilton-62/dp/0545872510"
-        },
-        {
-            title: 'The Cheese Experiment',
-            year: 2013,
-            description: "New Mouse City was in a panic! A strange epidemic had broken out. Mice everywhere -- including me, Geronimo Stilton -- were covered in weird blue pimples! I immediately called upon Mouse Island's most famouse doctor and researcher for help. He set to work with his team to find the cure . . . but someone was trying to stop him. Moldy mozzarella, I didn't want to be blue forever!",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,10286/35284-3.jpg',
-            buy: "https://www.amazon.com/Cheese-Experiment-Geronimo-Stilton-63/dp/0545872529"
-        },
-        {
-            title: 'The Magical Mission',
-            year: 2011,
-            description: "My secret agent friend 00K called me to London, England! He needed my help in an investigation. Trap came along, too, so he could take part in a huge magic show. Then, to solve 00K's mystery, I ended up needing to perform a magic trick myself -- I had to make Big Ben disappear for five minutes! Could I do it? Squeak!",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,10613/36259-3.jpg',
-            buy: "https://www.amazon.com/Magical-Mission-Geronimo-Stilton-64-ebook/dp/B01EXN5ASG"
-        },
-        {
-            title: 'Operation: Secret Recipe',
-            year: 2015,
-            description: "My family and I traveled to Milan, Italy, for a special event: the unveiling of the precious ancient parchment containing the secret, original recipe for panettone, a traditional sweet holiday bread. But right before the big moment, the recipe was stolen! And the thief was masquerading as me! Could I catch the thief and clear my name?",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,12609/43160-3.jpg',
-            buy: "https://www.amazon.com/Operation-Secret-Recipe-Geronimo-Stilton/dp/1338087827"
-        },
-        {
-            title: 'The Chocolate Chase',
-            year: 2016,
-            description: "It was spring in New Mouse City! I love to celebrate the season with my fellow mice by exchanging chocolate eggs and competing in a confectionary challenge. This year, there was also a special exhibition of priceless jeweled Mousebergé eggs in town. Then one of the Mousebergé eggs was stolen... and it was up to me to find it! Squeak! Could I chase it down?",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,12610/43162-3.jpg',
-            buy: "https://www.amazon.com/Chocolate-Chase-Geronimo-Stilton-67/dp/1338159151"
-        },
-        {
-            title: 'Cyber-Thief Showdown',
-            year: 2010,
-            description: "I am not the kind of mouse who spends money on useless things. But one day I kept getting packages of things I did not order or need. Someone on the Internet had stolen my identity! Professor Margo Bitmouse, a well-­known computer expert, helped me track down the hacker. Could I find the thief before my reputation was ruined?",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,12637/43209-3.jpg',
-            buy: "https://www.amazon.com/Cyber-Thief-Showdown-Geronimo-Stilton-68/dp/1338215191"
-        },
-        {
-            title: 'Hug a Tree, Geronimo',
-            year: 2015,
-            description: "Geronimo decides to buy his aunt's old farm where he used to spend the holidays. It's filled with memories from his childhood! There is a large oak tree in the yard that holds legendary secrets to unlock.",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,13043/44553-3.jpg',
-            buy: "https://www.amazon.com/Hug-Tree-Geronimo-Stilton-69/dp/1338215248"
-        },
-        {
-            title: 'The Phantom Bandit',
-            year: 2016,
-            description: "The staff of the Rodent's Gazette sent me on a vacation to Cacklefur Castle. But who could relax in such a spooky place? On my first night there I stumbled on a mystery. A phantom was threatening the special pumpkins that grow in the Von Cacklefurs' garden. Could I trick the ghost thief into revealing its identity?",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,13044/44555-3.jpg',
-            buy: "https://www.amazon.com/Phantom-Bandit-Geronimo-Stilton-70/dp/1338268538"
-        },
-        {
-            title: 'Geronimo On Ice',
-            year: 2016,
-            description: "Mouse Island was getting ready for the winter Ice Skating Championships! The prize for this year's champions was a pair of antique silver skates that were said to contain clues to a hidden treasure! Just before the championships, we learn someone wants to steal the Silver Skates to search for the treasure! I had to join the competition to help keep the skates safe. But I didn't know how to ice skate! Would I be able to learn enough tricks on the ice to save the Silver Skates?",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,13239/44984-3.jpg',
-            buy: "https://www.amazon.com/Geronimo-Ice-Stilton-71/dp/1338306219"
-        },
-        {
-            title: 'The Hawaiian Heist',
-            year: 2017,
-            description: "The most famouse goldsmith in Hawaii created a necklace for a famous actress, but someone wants to steal it! Can Geronimo figure out who the thief is before they run away with the jewels?",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,13666/45534-3.jpg',
-            buy: "https://www.amazon.com/Hawaiian-Heist-Geronimo-Stilton-72/dp/1338306235"
-        },
-        {
-            title: 'The Missing Movie',
-            year: 2018,
-            description: "New Mouse City was having its first film festival! Famouse directors around the world had submitted their very best movies for a chance at the big prize. But at the big screening, Mousen Scorsese's newest film goes missing! Who could have stolen it, and why? Hercule and Geronimo spring into action to solve the case!",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,13981/46097-3.jpg',
-            buy: "https://www.amazon.com/Missing-Movie-Geronimo-Stilton-73/dp/1338546961"
-        },
-        {
-            title: 'Happy Birthday, Geronimo!',
-            year: 2017,
-            description: "Geronimo is celebrating his birthday! He is out with his family when he realizes someone has replaced all of his money with counterfeit bills. Geronimo and Hercule set out to find the thieves!",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,14040/46193-3.jpg',
-            buy: "https://www.amazon.com/Happy-Birthday-Geronimo-Stilton-74/dp/1338587536"
-        },
-        {
-            title: 'The Sticky Situation',
-            year: 2010,
-            description: "Geronimo and Trap decide to start making organic honey with the help of some beekeepers. When the honey is ready, they face up against the evil Madam No.",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,14096/46360-3.jpg',
-            buy: "https://www.amazon.com/GERONIMO-STILTON-75-STICKY-SITUATION/dp/1338587560"
-        },
-        {
-            title: 'Superstore Surprise',
-            year: 2020,
-            description: "It's the grand opening of Traps new super store, but nothing is working. The lights won't turn on, the doors won't open, and the loudspeaker is broken. Geronimo must figure out who is trying to sabotage the grand opening.",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,14579/54183-3.jpg',
-            buy: "https://www.amazon.com/Geronimo-Stilton-76-Superstore-Surprise/dp/9390189144"
-        },
-        {
-            title: 'The Last Resort Oasis',
-            year: 2021,
-            description: "When you're with Geronimo Stilton, it's always a fabumouse adventure! This time it's a vacation to the Camel Oasis!",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,14970/73774-3.jpg',
-            buy: "https://www.amazon.com/Geronimo-Stilton-77-Resort-Oasis/dp/9390590388"
-        },
-        {
-            title: 'Mysterious Eye of the Dragon',
-            year: 2021,
-            description: "My sister Thea and my cousin Trap were not getting along! When grandfather found them arguing over who would get to join me on a trip to Brazil, he forced us all to go together. My friend Isabela needed my help finding a mysterious emerald. Could Trap and Thea stop shouting their snouts off long enough to help find the stone?",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,15298/94286-3.jpg',
-            buy: "https://www.amazon.com/Mysterious-Eye-Dragon-Geronimo-Stilton/dp/1338687204"
-        },
-        {
-            title: 'Garbage Dump Disaster',
-            year: 2021,
-            description: "Hercule and Geronimo investigate a strange new case. There is a garbage thief in New Mouse City. They aren't stealing just any trash, it's all organic waste. They enlist the help of the head of the Recycling Center to help. In the end they find the thief is a colleague of Floras who has built a machine that turns organic waste into an energy source.",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,15438/104857-3.jpg',
-            buy: "https://www.amazon.com/Garbage-Thief-Geronimo-Stilton-79/dp/1338756842"
-        },
-        {
-            title: 'Have a Heart, Geronimo',
-            year: 2022,
-            description: "Creepella opens Mouse Island's first dating agency and hires Geronimo as her assistant!",
-            img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,15516/112334-3.jpg',
-            buy: "https://www.amazon.com/Geronimo-Stilton-80/dp/1338802240"
-        },
-        {
-            title: 'The Super Cup Face-Off',
-            year: 2022,
-            description: "Everymouse on Mouse Island is squeaking about The Super Cup! My two favorite soccer teams, the Squeakers and the Turbo Cheese, had made it to the finals. But something suspicious was happening on the field. The Mighty Mice and the Sewer Rats seemed to be scoring without even trying! Could I get to the bottom of it before my two favorite teams are cheated out of their trophies?",
-            img: 'https://books.google.com/books/publisher/content?id=8x5DEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70pV8DIxWUDpyFER3VUBwUmauFuzgXCt3x22hI-gew1J-X-J3uGv96js48lGwYW21FWtglPM_2CL0CdlmcUFpz6hoVtF6K-pLpM60kfh0Cod9cZ0qQkx4CvixiGJmaQbALNMRTU',
-            buy: "https://www.amazon.com/Super-Cup-Face-Off-Geronimo-Stilton/dp/1338802267"
-        },
-        {
-            title: 'Mouse VS Wild',
-            year: 2020,
-            description: "Trap had finally talked me into taking a relaxing vacation. But it turned out it wouldn’t just be given to me. We were going to have to win it! I was on my way to Port Stinky to win a race against the wild. Could I stand the smell long enough to win?",
-            img: 'https://books.google.com/books/publisher/content?id=m95sEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70EzClVSYHX7U7tYctN7cvfRnTC5xMuNM10OWL3xb4oibdawEb9VcKM_QHnn0MAY4IjLoYuUqX2CTeyHqGQ5v6Ai7twMFE_x-f6NcHq8PU4K6yN2PoC0cOXVbpfxFusOIcyb4Lz',
-            buy: "https://www.amazon.com/Mouse-VS-Wild-Geronimo-Stilton/dp/133884802X"
-        },
+    {
+        title: 'Mouse House Hunter',
+        year: 2012,
+        description: "I love my comfy, cozy house, so when Grandfather William announced that I had to sell it to help support The Rodent's Gazette, I was very upset! But I'll do anything to help my newspaper. That's how I ended up on a wild, desperate house hunt, all over New Mouse City. Could I find a new home in time?",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,10274/35267-3.jpg',
+        buy: "https://www.amazon.com/Mouse-House-Hunter-Geronimo-Stilton-ebook/dp/B00TYTPLP2"
+    },
+    {
+        title: 'Mouse Overboard!',
+        year: 2014,
+        description: "My family and I, Geronimo Stilton, were invited to Lisbon, Portugal, to retrace the journey of the great explorer Vasco da Gama. He was the first European to reach India by sea--and was apparently an ancestor of the Stiltons! But once we got on the boat, I learned that someone was trying to sabotage the voyage. Could I figure out who?",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,10285/35283-3.jpg',
+        buy: "https://www.amazon.com/Mouse-Overboard-Geronimo-Stilton-62/dp/0545872510"
+    },
+    {
+        title: 'The Cheese Experiment',
+        year: 2013,
+        description: "New Mouse City was in a panic! A strange epidemic had broken out. Mice everywhere -- including me, Geronimo Stilton -- were covered in weird blue pimples! I immediately called upon Mouse Island's most famouse doctor and researcher for help. He set to work with his team to find the cure . . . but someone was trying to stop him. Moldy mozzarella, I didn't want to be blue forever!",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,10286/35284-3.jpg',
+        buy: "https://www.amazon.com/Cheese-Experiment-Geronimo-Stilton-63/dp/0545872529"
+    },
+    {
+        title: 'The Magical Mission',
+        year: 2011,
+        description: "My secret agent friend 00K called me to London, England! He needed my help in an investigation. Trap came along, too, so he could take part in a huge magic show. Then, to solve 00K's mystery, I ended up needing to perform a magic trick myself -- I had to make Big Ben disappear for five minutes! Could I do it? Squeak!",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,10613/36259-3.jpg',
+        buy: "https://www.amazon.com/Magical-Mission-Geronimo-Stilton-64-ebook/dp/B01EXN5ASG"
+    },
+    {
+        title: 'Operation: Secret Recipe',
+        year: 2015,
+        description: "My family and I traveled to Milan, Italy, for a special event: the unveiling of the precious ancient parchment containing the secret, original recipe for panettone, a traditional sweet holiday bread. But right before the big moment, the recipe was stolen! And the thief was masquerading as me! Could I catch the thief and clear my name?",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,12609/43160-3.jpg',
+        buy: "https://www.amazon.com/Operation-Secret-Recipe-Geronimo-Stilton/dp/1338087827"
+    },
+    {
+        title: 'The Chocolate Chase',
+        year: 2016,
+        description: "It was spring in New Mouse City! I love to celebrate the season with my fellow mice by exchanging chocolate eggs and competing in a confectionary challenge. This year, there was also a special exhibition of priceless jeweled Mousebergé eggs in town. Then one of the Mousebergé eggs was stolen... and it was up to me to find it! Squeak! Could I chase it down?",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,12610/43162-3.jpg',
+        buy: "https://www.amazon.com/Chocolate-Chase-Geronimo-Stilton-67/dp/1338159151"
+    },
+    {
+        title: 'Cyber-Thief Showdown',
+        year: 2010,
+        description: "I am not the kind of mouse who spends money on useless things. But one day I kept getting packages of things I did not order or need. Someone on the Internet had stolen my identity! Professor Margo Bitmouse, a well-­known computer expert, helped me track down the hacker. Could I find the thief before my reputation was ruined?",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,12637/43209-3.jpg',
+        buy: "https://www.amazon.com/Cyber-Thief-Showdown-Geronimo-Stilton-68/dp/1338215191"
+    },
+    {
+        title: 'Hug a Tree, Geronimo',
+        year: 2015,
+        description: "Geronimo decides to buy his aunt's old farm where he used to spend the holidays. It's filled with memories from his childhood! There is a large oak tree in the yard that holds legendary secrets to unlock.",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,13043/44553-3.jpg',
+        buy: "https://www.amazon.com/Hug-Tree-Geronimo-Stilton-69/dp/1338215248"
+    },
+    {
+        title: 'The Phantom Bandit',
+        year: 2016,
+        description: "The staff of the Rodent's Gazette sent me on a vacation to Cacklefur Castle. But who could relax in such a spooky place? On my first night there I stumbled on a mystery. A phantom was threatening the special pumpkins that grow in the Von Cacklefurs' garden. Could I trick the ghost thief into revealing its identity?",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,13044/44555-3.jpg',
+        buy: "https://www.amazon.com/Phantom-Bandit-Geronimo-Stilton-70/dp/1338268538"
+    },
+    {
+        title: 'Geronimo On Ice',
+        year: 2016,
+        description: "Mouse Island was getting ready for the winter Ice Skating Championships! The prize for this year's champions was a pair of antique silver skates that were said to contain clues to a hidden treasure! Just before the championships, we learn someone wants to steal the Silver Skates to search for the treasure! I had to join the competition to help keep the skates safe. But I didn't know how to ice skate! Would I be able to learn enough tricks on the ice to save the Silver Skates?",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,13239/44984-3.jpg',
+        buy: "https://www.amazon.com/Geronimo-Ice-Stilton-71/dp/1338306219"
+    },
+    {
+        title: 'The Hawaiian Heist',
+        year: 2017,
+        description: "The most famouse goldsmith in Hawaii created a necklace for a famous actress, but someone wants to steal it! Can Geronimo figure out who the thief is before they run away with the jewels?",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,13666/45534-3.jpg',
+        buy: "https://www.amazon.com/Hawaiian-Heist-Geronimo-Stilton-72/dp/1338306235"
+    },
+    {
+        title: 'The Missing Movie',
+        year: 2018,
+        description: "New Mouse City was having its first film festival! Famouse directors around the world had submitted their very best movies for a chance at the big prize. But at the big screening, Mousen Scorsese's newest film goes missing! Who could have stolen it, and why? Hercule and Geronimo spring into action to solve the case!",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,13981/46097-3.jpg',
+        buy: "https://www.amazon.com/Missing-Movie-Geronimo-Stilton-73/dp/1338546961"
+    },
+    {
+        title: 'Happy Birthday, Geronimo!',
+        year: 2017,
+        description: "Geronimo is celebrating his birthday! He is out with his family when he realizes someone has replaced all of his money with counterfeit bills. Geronimo and Hercule set out to find the thieves!",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,14040/46193-3.jpg',
+        buy: "https://www.amazon.com/Happy-Birthday-Geronimo-Stilton-74/dp/1338587536"
+    },
+    {
+        title: 'The Sticky Situation',
+        year: 2010,
+        description: "Geronimo and Trap decide to start making organic honey with the help of some beekeepers. When the honey is ready, they face up against the evil Madam No.",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,14096/46360-3.jpg',
+        buy: "https://www.amazon.com/GERONIMO-STILTON-75-STICKY-SITUATION/dp/1338587560"
+    },
+    {
+        title: 'Superstore Surprise',
+        year: 2020,
+        description: "It's the grand opening of Traps new super store, but nothing is working. The lights won't turn on, the doors won't open, and the loudspeaker is broken. Geronimo must figure out who is trying to sabotage the grand opening.",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,14579/54183-3.jpg',
+        buy: "https://www.amazon.com/Geronimo-Stilton-76-Superstore-Surprise/dp/9390189144"
+    },
+    {
+        title: 'The Last Resort Oasis',
+        year: 2021,
+        description: "When you're with Geronimo Stilton, it's always a fabumouse adventure! This time it's a vacation to the Camel Oasis!",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,14970/73774-3.jpg',
+        buy: "https://www.amazon.com/Geronimo-Stilton-77-Resort-Oasis/dp/9390590388"
+    },
+    {
+        title: 'Mysterious Eye of the Dragon',
+        year: 2021,
+        description: "My sister Thea and my cousin Trap were not getting along! When grandfather found them arguing over who would get to join me on a trip to Brazil, he forced us all to go together. My friend Isabela needed my help finding a mysterious emerald. Could Trap and Thea stop shouting their snouts off long enough to help find the stone?",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,15298/94286-3.jpg',
+        buy: "https://www.amazon.com/Mysterious-Eye-Dragon-Geronimo-Stilton/dp/1338687204"
+    },
+    {
+        title: 'Garbage Dump Disaster',
+        year: 2021,
+        description: "Hercule and Geronimo investigate a strange new case. There is a garbage thief in New Mouse City. They aren't stealing just any trash, it's all organic waste. They enlist the help of the head of the Recycling Center to help. In the end they find the thief is a colleague of Floras who has built a machine that turns organic waste into an energy source.",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,15438/104857-3.jpg',
+        buy: "https://www.amazon.com/Garbage-Thief-Geronimo-Stilton-79/dp/1338756842"
+    },
+    {
+        title: 'Have a Heart, Geronimo',
+        year: 2022,
+        description: "Creepella opens Mouse Island's first dating agency and hires Geronimo as her assistant!",
+        img: 'https://geronimostilton.com/upload/assets/files/US,116,-1,15516/112334-3.jpg',
+        buy: "https://www.amazon.com/Geronimo-Stilton-80/dp/1338802240"
+    },
+    {
+        title: 'The Super Cup Face-Off',
+        year: 2022,
+        description: "Everymouse on Mouse Island is squeaking about The Super Cup! My two favorite soccer teams, the Squeakers and the Turbo Cheese, had made it to the finals. But something suspicious was happening on the field. The Mighty Mice and the Sewer Rats seemed to be scoring without even trying! Could I get to the bottom of it before my two favorite teams are cheated out of their trophies?",
+        img: 'https://books.google.com/books/publisher/content?id=8x5DEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70pV8DIxWUDpyFER3VUBwUmauFuzgXCt3x22hI-gew1J-X-J3uGv96js48lGwYW21FWtglPM_2CL0CdlmcUFpz6hoVtF6K-pLpM60kfh0Cod9cZ0qQkx4CvixiGJmaQbALNMRTU',
+        buy: "https://www.amazon.com/Super-Cup-Face-Off-Geronimo-Stilton/dp/1338802267"
+    },
+    {
+        title: 'Mouse VS Wild',
+        year: 2020,
+        description: "Trap had finally talked me into taking a relaxing vacation. But it turned out it wouldn’t just be given to me. We were going to have to win it! I was on my way to Port Stinky to win a race against the wild. Could I stand the smell long enough to win?",
+        img: 'https://books.google.com/books/publisher/content?id=m95sEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70EzClVSYHX7U7tYctN7cvfRnTC5xMuNM10OWL3xb4oibdawEb9VcKM_QHnn0MAY4IjLoYuUqX2CTeyHqGQ5v6Ai7twMFE_x-f6NcHq8PU4K6yN2PoC0cOXVbpfxFusOIcyb4Lz',
+        buy: "https://www.amazon.com/Mouse-VS-Wild-Geronimo-Stilton/dp/133884802X"
+    },
 ];
-export {books};

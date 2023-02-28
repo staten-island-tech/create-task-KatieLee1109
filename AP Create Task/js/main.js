@@ -1,34 +1,29 @@
 import { books } from "./file"
-import "../style.css";
-const DomSelectors = {
-    form: document.querySelectorAll(".form"),
-    button1: document.querySelectorAll(".submit"),
-    button2: document.querySelectorAll(".clear"),
-    input: document.querySelectorAll(".input"),
-    q: document.querySelectorAll(".display"),
-}
-DomSelectors.form.addEventListener("click", (e) => {
+import { DOMSelectors } from "./dom"
+DOMSelectors.form.addEventListener("submit", function (e) {
     e.preventDefault();
-    let inputVal = input.value;
+    let inputVal = input.title;
     display(inputVal)
 });
-async function file(books){
-    const book = await fetch (books)
-    const returned = await book.json();
+async function file(booked) {
+    const book = await fetch(books)
+    console.log(book)
+    const returned = await booked.json();
     return returned;
 };
-async function display(books){
-    const book = await file(books);
+async function display(booked) {
+    const book = await file(booked);
     console.log(book)
-    books.books.forEach(books => {
+    books.forEach(books => {
         q.insertAdjacentHTML(
             "afterend",
-             `<img class="img" src= ${books.img} alt=""/>
+            `<img class="img" src= ${books.img} alt=""/>
              <p class="output">Year Published: ${books.year}<p>
              <p class="output">Description: ${books.description}<p>
+             <p class="buy">Purchase the Book: ${books.buy}</p>
              `)
     });
-    q.innerHTML = book.book[0]
+    q.innerHTML = title.booked
 };
 
 
