@@ -1,51 +1,36 @@
-// import {books} from "./file"
-// const submitinput = document.querySelectorAll('.input')
-// submitinput.addEventListener("input", (e) => {
-// async function getresponse(books)
-//     let value = e.target.value
-//     if (value.status < 200 || value.status > 299){
-//         throw console.error(response);
-//     }else{
-//         const data = await response.json();
-//         console.log(data);
-//     }
-// })
-   
-
-import { books } from "./file";
+import { books } from "./file"
 import "../style.css";
 const DomSelectors = {
     form: document.querySelectorAll(".form"),
     button1: document.querySelectorAll(".submit"),
     button2: document.querySelectorAll(".clear"),
     input: document.querySelectorAll(".input"),
+    q: document.querySelectorAll(".display"),
 }
-DomSelectors.form.addEventListener("input", (e) => {
+DomSelectors.form.addEventListener("click", (e) => {
     e.preventDefault();
     let inputVal = input.value;
     display(inputVal)
 });
-async function file(){
-    const response = await fetch (books);
-    const books = await response.json();
-    return books;
-}
-file().then(books => {
-    books;
-});
+async function file(books){
+    const book = await fetch (books)
+    const returned = await book.json();
+    return returned;
+};
+async function display(books){
+    const book = await file(books);
+    console.log(book)
+    books.books.forEach(books => {
+        q.insertAdjacentHTML(
+            "afterend",
+             `<img class="img" src= ${books.img} alt=""/>
+             <p class="output">Year Published: ${books.year}<p>
+             <p class="output">Description: ${books.description}<p>
+             `)
+    });
+    q.innerHTML = book.book[0]
+};
 
-async function error(){
-    const response = await fetch (books);
-    if (response){
-        const message = `The book you have searched up does not exist in the system.`;
-        throw new error(message);
-    }
-    const books = await response.json();
-    return books;
-}
-error().catch(error => {
-    error.message;
-});
 
 
 
