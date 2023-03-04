@@ -24,7 +24,7 @@ function createcard(){
         `<h1>${books.title}<h1>
         <img class="img" src= ${books.img} alt = ""/>
         <h2>${books.description}<h2>
-        <button class="btn2"><button>
+        <button class="btn2">Purchase ${book.buy}<button>
         `);
     });
 }
