@@ -1,0 +1,69 @@
+:root {
+  --h1: 7rem;
+  --h2: 5.2rem;
+  --h3: 3.5rem;
+  --h4: 2.5rem;
+  --h5: 1.6rem;
+}
+
+.dark{
+--darkblue:#000000;
+--purple: rgb(32, 1, 68);
+--pink: rgb(84, 0, 42);
+--yellow: rgb(2, 95, 50);
+
+--first: var(--darkblue);
+--second: var(--purple);
+--third: var(--light-imgtwo);
+--fourth: var(--yellow);
+}
+
+.light{
+--lightpurple: rgb(202, 162, 255);
+--lightpink:rgb(249, 176, 243);
+--lightblue: rgb(161, 178, 253);
+--lightgreen: rgb(211, 255, 211);
+
+--first: var(--lightpurple);
+--second: var(--lightpink);
+--third: var(--lightblue);
+--fourth: var(--lightgreen);
+}
+
+head,
+body,
+* {
+font-family: 'Rowdies';
+text-align: center;
+border-radius: 20px;
+background-color: var(--first);
+}
+
+.display{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 15;
+padding: 15;
+}
+.maindiv{
+color: var(--second);
+}
+h1{
+color: var(--second);
+font-size: var(--h1);
+}
+.btn{
+color: var(--second);
+font-size: var(--h4);
+}
+.order{
+color: var(--third);
+font-size: var(--h4);
+}
+.img{
+width: 40vh;
+height: 50vh;
+}
+
