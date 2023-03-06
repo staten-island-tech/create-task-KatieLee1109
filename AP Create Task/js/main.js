@@ -3,6 +3,21 @@ import { books } from "./file";
 import "../style.css";
 console.log(create);
 
+async function data(books){
+  try{
+    const response = await fetch(books);
+    if (response.status < 200 || response.status > 299){
+      throw new Error(response);
+    } else {
+      const data = await response.json();
+      console.log(data);
+    }
+    } catch (error){
+      console.log(error);
+      console.log("can not be found");
+    }
+  }
+
 function create() {
   books.forEach((books) => {
     DOMSelectors.display.innerHTML = " ";
@@ -32,7 +47,7 @@ document.querySelector(".btn").addEventListener("click", function () {
 });
 
 const wimpykid = document.getElementById("wk");
-wk.addEventListener("click", function () {
+wimpykid.addEventListener("click", function () {
   DOMSelectors.display.innerHTML = " ";
   books.filter((wimpykid) => wimpykid.type === "wimpykid")
     .forEach(wimpykid => {
@@ -42,8 +57,8 @@ wk.addEventListener("click", function () {
       <img class="img" src= ${wimpykid.img}
       alt=""/>
       <p id="outputText"> Year Published: ${wimpykid.year}<p>
-      <p id="outputText"> Description: ${wimpykid.description}<p>
-      <button id="order" class="order"> Purchase ${wimpykid.buy} <button>
+      <h3 id="outputText"> Description: ${wimpykid.description}<h3>
+      <h3><a href="${wimpykid.buy}">Purchase</a></h3>
       <div>
       <div id="mainCard">`
         );
@@ -62,13 +77,14 @@ Stilton.addEventListener("click", function () {
       <img class="img" src= ${Stilton.img}
       alt=""/>
       <p id="outputText"> Year Published: ${Stilton.year}</p>
-      <p id="outputText">Description: ${Stilton.description}</p>
-      <button id="order" class="order">Purchase ${Stilton.buy}</button>
+      <h3 id="outputText" class="text">Description: ${Stilton.description}<h3>
+      <h3><a href= "${Stilton.buy}">Purchase<a><h3>
       <div>
       </div id="mainCard">`
         );
     });
 });
+
 
 
 
