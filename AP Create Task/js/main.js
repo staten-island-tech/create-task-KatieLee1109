@@ -22,7 +22,7 @@ function create() {
   books.forEach((books) => {
     DOMSelectors.display.innerHTML = " ";
     DOMSelectors.maindiv.insertAdjacentHTML
-      ("beforeend",
+      ("afterbegin",
         `
     <h2> ${books.title}<h2>
     <img class="img" src= ${books.img}
@@ -52,7 +52,7 @@ wimpykid.addEventListener("click", function () {
   books.filter((wimpykid) => wimpykid.type === "wimpykid")
     .forEach(wimpykid => {
       DOMSelectors.main.insertAdjacentHTML
-        ("beforeend",
+        ("afterbegin",
           `<h2> ${wimpykid.title}<h2>
       <img class="img" src= ${wimpykid.img}
       alt=""/>
@@ -72,7 +72,7 @@ Stilton.addEventListener("click", function () {
     .forEach(Stilton => {
       DOMSelectors.main.insertAdjacentHTML
         (
-          "beforeend",
+          "afterbegin",
           `<h2>${Stilton.title}</h2>
       <img class="img" src= ${Stilton.img}
       alt=""/>
