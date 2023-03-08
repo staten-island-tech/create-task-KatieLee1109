@@ -1,6 +1,6 @@
 export { books }
 const books = [
-   {
+    {
         title: 'The Kingdom of Fantasy',
         year: 2003,
         description: "Join Geronimo for his biggest, most fabumouse adventure yet! Dragons, mermaids, and much, much more await readers in this very special edition!I knew from the start that it was no ordinary day, but I certainly did not expect to find a golden staircase in my attic. Up at the top, there was a door. And beyond the door was a world I never could have imagined -- the Kingdom of Fantasy! Along with my guide, a frog named Scribblehopper, I set off on an incredible adventure to save the Queen of the Fairies. But along the way, I had to face giant scorpions, witches, sea serpents, pixies, and dozens of other creatures that I had only ever heard stories about. Holey cheese, what a journey! Could I save the Queen and my own tail?",
@@ -764,7 +764,7 @@ const books = [
         title: 'Diary of a Wimpy Kid: The Last Straw',
         year: 2009,
         description: "You see, Frank Heffley actually thinks he can get his son to toughen up, and he enlists Greg in organized sports and other “manly” endeavors. Of course, Greg is able to easily sidestep his fathers efforts to change him. But when Gregs dad threatens to send him to military academy, Greg realizes he has to shape up . . . or get shipped out.",
-        img:  'https://books.google.com/books/content?id=o_xMoYgLUoEC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U26-sCzo96Ptx2ZkoqG88YUzbYNvw&w=1280',
+        img: 'https://books.google.com/books/content?id=o_xMoYgLUoEC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U26-sCzo96Ptx2ZkoqG88YUzbYNvw&w=1280',
         buy: "https://www.amazon.com/Jeff-Kinney-Diary-Wimpy-Straw/dp/B0081HTZSC",
         type: "wimpykid"
     },
@@ -781,7 +781,7 @@ const books = [
         year: 2010,
         description: "Greg suddenly finds himself dealing with the pressures of boy-girl parties, increased responsibilities, and even the awkward changes that come with getting older—all without his best friend, Rowley, at his side. Can Greg make it through on his own? Or will he have to face the “ugly truth?”",
         img: 'https://books.google.com/books/content?id=BTM7iwk64VgC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U337xAatYRSrZQFku8O4m-klx2Wwg&w=1280',
-        buy:"https://www.amazon.com/Ugly-Truth-Diary-Wimpy-Kid/dp/0141340827",
+        buy: "https://www.amazon.com/Ugly-Truth-Diary-Wimpy-Kid/dp/0141340827",
         type: "wimpykid"
     },
     {
@@ -789,7 +789,7 @@ const books = [
         year: 2011,
         description: "The authorities are closing in, but when a surprise blizzard hits, the Heffley family is trapped indoors. Greg knows that when the snow melts he is going to have to face the music, but could any punishment be worse than being stuck inside with your family for the holidays?",
         img: 'https://upload.wikimedia.org/wikipedia/en/f/f5/Diary_of_a_Wimpy_Kid_Cabin_Fever_book_cover.jpg',
-        buy:"https://www.amazon.com/Cabin-Fever-Diary-Wimpy-book/dp/0141343001",
+        buy: "https://www.amazon.com/Cabin-Fever-Diary-Wimpy-book/dp/0141343001",
         type: "wimpykid"
     },
     {
@@ -797,7 +797,7 @@ const books = [
         year: 2012,
         description: "Love is in the air--but what does that mean for Greg Heffley? A Valentines Day dance at Gregs middle school has turned his world upside down. As Greg scrambles to find a date, he is worried he will be left out in the cold on the big night. His best friend, Rowley, does not have any prospects either, but that is a small consolation. An unexpected twist gives Greg a partner for the dance and leaves Rowley the odd man out. But a lot can happen in one night, and in the end, you never know who is going to be lucky in love.",
         img: 'https://books.google.com/books/content?id=KFkHhZVLiCgC&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U0pHU3DqvBrq6E9pNIIFZejxUjyfQ&w=1280',
-        buy:"https://www.amazon.com/Third-Wheel-Diary-Wimpy-Book/dp/1419705849",
+        buy: "https://www.amazon.com/Third-Wheel-Diary-Wimpy-Book/dp/1419705849",
         type: "wimpykid"
     },
     {
@@ -805,7 +805,7 @@ const books = [
         year: 2013,
         description: "Greg Heffley's on a losing streak. His best friend, Rowley Jefferson, has ditched him, and finding new friends in middle school is proving to be a tough task. To change his fortunes, Greg decides to take a leap of faith and turn his decisions over to chance. Will a roll of the dice turn things around, or is Greg's life destined to be just another hard-luck story?",
         img: 'https://books.google.com/books/publisher/content?id=lSFAAAAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U1AcSgz15_A2jRU8KpFxMmj9ekWKQ&w=1280',
-        buy:"https://www.amazon.com/Diary-Wimpy-Kid-Hard-Luck/dp/1419711326",
+        buy: "https://www.amazon.com/Diary-Wimpy-Kid-Hard-Luck/dp/1419711326",
         type: "wimpykid"
     },
     {
@@ -813,7 +813,7 @@ const books = [
         year: 2014,
         description: "A family road trip is supposed to be a lot of fun . . . unless, of course, you’re the Heffleys. The journey starts off full of promise, then quickly takes several wrong turns. Gas station bathrooms, crazed seagulls, a fender bender, and a runaway pig—not exactly Greg Heffley’s idea of a good time. But even the worst road trip can turn into an adventure—and this is one the Heffleys won’t soon forget.",
         img: 'https://books.google.com/books/publisher/content?id=dSQpAwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U1FhD0wZtOVYqeqDfAPIXMi5DEVpA&w=1280',
-        buy:"https://www.amazon.com/The-Long-Haul/dp/1419741950",
+        buy: "https://www.amazon.com/The-Long-Haul/dp/1419741950",
         type: "wimpykid"
     },
     {
@@ -821,7 +821,7 @@ const books = [
         year: 2015,
         description: "That is the question Greg Heffley is asking as his town voluntarily unplugs and goes electronics-free. But modern life has its conveniences, and Greg isn’t cut out for an old-fashioned world. With tension building inside and outside the Heffley home, will Greg find a way to survive? Or is going “old school” just too hard for a kid like Greg?",
         img: 'https://books.google.com/books/publisher/content?id=tNClBwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U0J2GCT3z-Frqzf3msKVYGwLMLnPw&w=1280',
-        buy:"https://www.amazon.com/Old-School-Diary-Wimpy-Kid/dp/1419741969",
+        buy: "https://www.amazon.com/Old-School-Diary-Wimpy-Kid/dp/1419741969",
         type: "wimpykid"
     },
     {
@@ -829,7 +829,7 @@ const books = [
         year: 2016,
         description: "The pressure is really piling up on Greg Heffley. His mom thinks video games are turning his brain to mush, so she wants her son to put down the controller and explore his “creative side.” As if that is not scary enough, Halloween’s just around the corner and the frights are coming at Greg from every angle. When Greg discovers a bag of gummy worms, it sparks an idea. Can he get his mom off his back by making a movie . . . and will he become rich and famous in the process? Or will doubling down on this plan just double Greg’s troubles?",
         img: 'https://books.google.com/books/publisher/content?id=dpy3CwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U1BA6Jg0JWKqypg-h6RNVaTOdZ3xg&w=1280',
-        buy:"https://www.amazon.com/Diary-Wimpy-Kid-11-Double/dp/1419723448",
+        buy: "https://www.amazon.com/Diary-Wimpy-Kid-11-Double/dp/1419723448",
         type: "wimpykid"
     },
     {
@@ -837,7 +837,7 @@ const books = [
         year: 2017,
         description: "Greg Heffley and his family are getting out of town. With the cold weather and the stress of the approaching holiday season, the Heffleys decide to escape to a tropical island resort for some much-needed rest and relaxation. A few days in paradise should do wonders for Greg and his frazzled family. But the Heffleys soon discover that paradise isn't everything it's cracked up to be. Sun poisoning, stomach troubles, and venomous critters all threaten to ruin the family's vacation. Can their trip be saved, or will this island getaway end in disaster?",
         img: 'https://books.google.com/books/publisher/content?id=3AaPDgAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U2tW7ND1q3y8ORa6sgrmrbAsaoMVw&w=1280',
-        buy:"https://www.amazon.com/Getaway-Jeff-Kinney/dp/1419725459",
+        buy: "https://www.amazon.com/Getaway-Jeff-Kinney/dp/1419725459",
         type: "wimpykid"
     },
     {
@@ -853,7 +853,7 @@ const books = [
         year: 2019,
         description: "Jeff Kinney—an unexpected inheritance gives Greg Heffley’s family a chance to make big changes to their house. But they soon find that home improvement isn’t all it’s cracked up to be. Once the walls come down, all sorts of problems start to crop up. Rotten wood, toxic mold, unwelcome critters, and something even more sinister all make Greg and his family wonder if the renovations are worth the trouble. When the dust finally settles, will the Heffleys be able to stay . . . or will they need to get out of town?",
         img: 'https://books.google.com/books/publisher/content?id=5NKIDwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U0l2SlR8WrxmIiVLReJ4PTp-qU9SQ&w=1280',
-        buy:"https://www.amazon.com/Wrecking-Ball-Diary-Wimpy-Book/dp/1419739034",
+        buy: "https://www.amazon.com/Wrecking-Ball-Diary-Wimpy-Book/dp/1419739034",
         type: "wimpykid"
     },
     {
@@ -869,7 +869,7 @@ const books = [
         year: 2021,
         description: "After a disastrous field day competition at school, Greg decides that when it comes to his athletic career, he’s officially retired. But after his mom urges him to give sports one more chance, he reluctantly agrees to sign up for basketball. Tryouts are a mess, and Greg is sure he won’t make the cut. But he unexpectedly lands a spot on the worst team. As Greg and his new teammates start the season, their chances of winning even a single game look slim. But in sports, anything can happen. When everything is on the line and t...",
         img: 'https://books.google.com/books/publisher/content?id=8y0hEAAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U27wJ6KVoD2NE4wvBcptdaXNobbuw&w=1280',
-        buy:"https://www.amazon.com/Big-Shot-Diary-Wimpy-Book/dp/1419749153",
+        buy: "https://www.amazon.com/Big-Shot-Diary-Wimpy-Book/dp/1419749153",
         type: "wimpykid"
     },
     {
@@ -877,7 +877,7 @@ const books = [
         year: 2022,
         description: "When he decides to tag along with his brother Rodrick’s band, Löded Diper, Greg doesn’t realize what he’s getting into. But he soon learns that late nights, unpaid gigs, fighting between band members, and money troubles are all part of the rock ’n’ roll lifestyle. Can Greg help Löded Diper become the legends they think they are? Or will too much time with Rodrick’s band be a diper överlöde?",
         img: 'https://books.google.com/books/publisher/content?id=17lgEAAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U2GVS7cbPgvpTC7G2946sSkUHiHgg&w=1280',
-        buy:"https://www.amazon.com/Diper-%C3%96verl%C3%B6de-Diary-Wimpy-Book/dp/141976294X",
+        buy: "https://www.amazon.com/Diper-%C3%96verl%C3%B6de-Diary-Wimpy-Book/dp/141976294X",
         type: "wimpykid"
     },
 

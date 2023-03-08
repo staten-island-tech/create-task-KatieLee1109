@@ -37,19 +37,17 @@ border-color: aliceblue;
 background-color: var(--first);
 }
 
-.display{
+/* .display{
 display: flex;
 justify-content: space-between;
 flex-direction: row;
 flex-wrap: wrap;
-margin: 15;
-padding: 15;
-}
-.maindiv{
-color: var(--second);
-}
+margin: 20;
+padding: 25;
+text-align: center;
+} */
 h1{
-color: var(--second);
+color: var(--fourth);
 font-size: var(--h2);
 }
 .btn{
@@ -57,12 +55,16 @@ color: var(--second);
 font-size: var(--h4);
 }
 .order{
-color: var(--third);
+color: var(--fourth);
 font-size: var(--h3);
 }
 .img{
 width: 40vh;
-height: 50vh;
+height: 55vh;
+align-items: center;
+}
+.text{
+  text-align: center;
 }
 
 

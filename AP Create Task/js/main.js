@@ -3,26 +3,26 @@ import { books } from "./file";
 import "../style.css";
 console.log(create);
 
-async function data(books){
-  try{
+async function data(books) {
+  try {
     const response = await fetch(books);
-    if (response.status < 200 || response.status > 299){
+    if (response.status < 200 || response.status > 299) {
       throw new Error(response);
     } else {
       const data = await response.json();
       console.log(data);
     }
-    } catch (error){
-      console.log(error);
-      console.log("can not be found");
-    }
+  } catch (error) {
+    console.log(error);
+    console.log("can not be found");
   }
+}
 
 function create() {
   books.forEach((books) => {
     DOMSelectors.display.innerHTML = " ";
-    DOMSelectors.maindiv.insertAdjacentHTML
-      ("afterbegin",
+    DOMSelectors.display.insertAdjacentHTML
+      ("beforeend",
         `
     <h2> ${books.title}<h2>
     <img class="img" src= ${books.img}
@@ -35,6 +35,7 @@ function create() {
     `);
   });
 };
+
 document.querySelector(".btn").addEventListener("click", function () {
   if (document.body.classList.contains("light")
   ) {
@@ -51,8 +52,8 @@ wimpykid.addEventListener("click", function () {
   DOMSelectors.display.innerHTML = " ";
   books.filter((wimpykid) => wimpykid.type === "wimpykid")
     .forEach(wimpykid => {
-      DOMSelectors.main.insertAdjacentHTML
-        ("afterbegin",
+      DOMSelectors.display.insertAdjacentHTML
+        ("beforeend",
           `<h2> ${wimpykid.title}<h2>
       <img class="img" src= ${wimpykid.img}
       alt=""/>
@@ -70,9 +71,9 @@ Stilton.addEventListener("click", function () {
   DOMSelectors.display.innerHTML = " ";
   books.filter((Stilton) => Stilton.type === "Stilton")
     .forEach(Stilton => {
-      DOMSelectors.main.insertAdjacentHTML
+      DOMSelectors.display.insertAdjacentHTML
         (
-          "afterbegin",
+          "beforeend",
           `<h2>${Stilton.title}</h2>
       <img class="img" src= ${Stilton.img}
       alt=""/>
