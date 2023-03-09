@@ -6,8 +6,8 @@
   --h5: 1.6rem;
 }
 .dark{
---darkblue: rgb(250, 1, 212);
---purple: rgb(3, 0, 6);
+--darkblue: rgb(117, 1, 250);
+--purple: rgb(0, 0, 0);
 --pink: rgb(255, 0, 128);
 --yellow: rgb(63, 2, 77);
 
@@ -19,7 +19,7 @@
 .light{
 --lightpurple: rgb(175, 0, 245);
 --lightpink: rgb(0, 0, 0);
---lightblue: rgb(252, 100, 255);
+--lightblue: rgb(111, 0, 255);
 --lightgreen: rgb(255, 255, 255);
 
 --first: var(--lightpurple);

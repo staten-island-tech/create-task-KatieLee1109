@@ -2,22 +2,6 @@ import { DOMSelectors } from "./dom";
 import { books } from "./file";
 import "../style.css";
 console.log(create);
-
-async function data(books) {
-  try {
-    const response = await fetch(books);
-    if (response.status < 200 || response.status > 299) {
-      throw new Error(response);
-    } else {
-      const data = await response.json();
-      console.log(data);
-    }
-  } catch (error) {
-    console.log(error);
-    console.log("can not be found");
-  }
-}
-
 function create() {
   books.forEach((books) => {
     DOMSelectors.display.innerHTML = " ";
@@ -65,7 +49,6 @@ wimpykid.addEventListener("click", function () {
         );
     });
 });
-
 const Stilton = document.getElementById("gs");
 Stilton.addEventListener("click", function () {
   DOMSelectors.display.innerHTML = " ";
