@@ -28,7 +28,7 @@ function create() {
     <img class="img" src= ${books.img}
     alt=""/>
     <p id="outputText"> Year Published: ${books.year}<p>
-    <p id="outputText"> Description: ${books.description}<p>
+    <p id="outputText" class="year"> Description: ${books.description}<p>
     <button id="order" class="order">Purchase<button>
     <div>
     <div id="mainCard">
@@ -57,7 +57,7 @@ wimpykid.addEventListener("click", function () {
           `<h2> ${wimpykid.title}<h2>
       <img class="img" src= ${wimpykid.img}
       alt=""/>
-      <p id="outputText"> Year Published: ${wimpykid.year}<p>
+      <p id="outputText" class="year"> Year Published: ${wimpykid.year}<p>
       <h3 id="outputText"> Description: ${wimpykid.description}<h3>
       <h3><a href="${wimpykid.buy}">Purchase</a></h3>
       <div>

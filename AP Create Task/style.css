@@ -6,10 +6,10 @@
   --h5: 1.6rem;
 }
 .dark{
---darkblue:#000000;
---purple: rgb(234, 215, 255);
---pink: rgb(84, 0, 42);
---yellow: rgb(2, 95, 50);
+--darkblue: rgb(250, 1, 212);
+--purple: rgb(3, 0, 6);
+--pink: rgb(255, 0, 128);
+--yellow: rgb(63, 2, 77);
 
 --first: var(--darkblue);
 --second: var(--purple);
@@ -17,10 +17,10 @@
 --fourth: var(--yellow);
 }
 .light{
---lightpurple: rgb(147, 64, 255);
---lightpink:rgb(0, 0, 0);
---lightblue: rgb(2, 20, 101);
---lightgreen: rgb(211, 255, 211);
+--lightpurple: rgb(175, 0, 245);
+--lightpink: rgb(0, 0, 0);
+--lightblue: rgb(252, 100, 255);
+--lightgreen: rgb(255, 255, 255);
 
 --first: var(--lightpurple);
 --second: var(--lightpink);
@@ -60,12 +60,13 @@ font-size: var(--h3);
 }
 .img{
 width: 40vh;
-height: 55vh;
+height: 57vh;
 align-items: center;
 }
 .text{
   text-align: center;
 }
+
 
 
 
