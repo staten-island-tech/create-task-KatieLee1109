@@ -11,8 +11,8 @@ function create() {
     <h2> ${books.title}<h2>
     <img class="img" src= ${books.img}
     alt=""/>
-    <p id="outputText"> Year Published: ${books.year}<p>
-    <p id="outputText" class="year"> Description: ${books.description}<p>
+    <p id="outputText" class="year"> Year Published: ${books.year}<p>
+    <p id="outputText" class="text"> Description: ${books.description}<p>
     <button id="order" class="order">Purchase<button>
     <div>
     <div id="mainCard">
@@ -42,7 +42,7 @@ wimpykid.addEventListener("click", function () {
       <img class="img" src= ${wimpykid.img}
       alt=""/>
       <p id="outputText" class="year"> Year Published: ${wimpykid.year}<p>
-      <h3 id="outputText"> Description: ${wimpykid.description}<h3>
+      <h3 id="outputText" class="text"> Description: ${wimpykid.description}<h3>
       <h3><a href="${wimpykid.buy}">Purchase</a></h3>
       <div>
       <div id="mainCard">`
@@ -60,7 +60,7 @@ Stilton.addEventListener("click", function () {
           `<h2>${Stilton.title}</h2>
       <img class="img" src= ${Stilton.img}
       alt=""/>
-      <p id="outputText"> Year Published: ${Stilton.year}</p>
+      <p id="outputText" class="year"> Year Published: ${Stilton.year}</p>
       <h3 id="outputText" class="text">Description: ${Stilton.description}<h3>
       <h3><a href= "${Stilton.buy}">Purchase<a><h3>
       <div>

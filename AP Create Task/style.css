@@ -6,10 +6,10 @@
   --h5: 1.6rem;
 }
 .dark{
---darkblue: rgb(117, 1, 250);
+--darkblue: rgb(203, 157, 255);
 --purple: rgb(0, 0, 0);
---pink: rgb(255, 0, 128);
---yellow: rgb(63, 2, 77);
+--pink: rgb(255, 155, 205);
+--yellow: rgb(35, 48, 121);
 
 --first: var(--darkblue);
 --second: var(--purple);
@@ -17,10 +17,10 @@
 --fourth: var(--yellow);
 }
 .light{
---lightpurple: rgb(175, 0, 245);
+--lightpurple: rgb(171, 195, 206);
 --lightpink: rgb(0, 0, 0);
---lightblue: rgb(111, 0, 255);
---lightgreen: rgb(255, 255, 255);
+--lightblue: rgb(195, 163, 238);
+--lightgreen: rgb(69, 56, 105);
 
 --first: var(--lightpurple);
 --second: var(--lightpink);
@@ -32,20 +32,10 @@ body,
 * {
 font-family: 'Rowdies';
 text-align: center;
-border-radius: 20px;
+border-radius: 22px;
 border-color: aliceblue;
 background-color: var(--first);
 }
-
-/* .display{
-display: flex;
-justify-content: space-between;
-flex-direction: row;
-flex-wrap: wrap;
-margin: 20;
-padding: 25;
-text-align: center;
-} */
 h1{
 color: var(--fourth);
 font-size: var(--h2);
@@ -65,6 +55,9 @@ align-items: center;
 }
 .text{
   text-align: center;
+}
+.year{
+  font-size: var(--h5);
 }
 
 
